@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="js/bt/bootstrap.css" />
+    <style>
+        body,ul,h4,small,dl,dd,p{ margin: 0; padding: 0;}
+        li{list-style: none;}
+        a{text-decoration: none;}
+        .margin{width:1140px;margin: 0 auto;}
+        img{ vertical-align: top;}
+        .clear:after{content: ""; display: block; clear: both;}
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div class="margin clear">
+            <ul class="list-l">
+                <li><a href="#">康佳新闻</a><span>|</span></li>
+                <li><a href="#">加入康佳</a><span>|</span></li>
+                <li><a href="#">校园招聘</a><span>|</span></li>
+                <li><a href="#">康佳社区</a><span>|</span></li>
+                <li><a href="#">大宗采购</a><span>|</span></li>
+                <li><a href="#">积分商城</a><span>|</span></li>
+            </ul>
+            <ul class="list-r">
+                <li><a href="#">登录</a><span>|</span></li>
+                <li><a href="#">注册</a></li>
+                <li><a href="#"><img src="img/buycar.png" />购物车<span>(0)</span></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="banner">
+        <div class="margin">
+             <ul class="clear">
+                <li><a href="#"><img src="https://www.konka.com/themes/pc/konka/images/logo.png?v6d6e" /></a></li>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">冰箱</a></li>
+                <li><a href="#">洗衣机</a></li>
+                <li><a href="#">手机</a></li>
+                <li><a href="#">生活电器</a></li>
+                <li><a href="#">智能家居</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">K迷优品</a></li>
+                <li><a href="#">大宗采购</a></li>    
+                <li><a href="#">服务</a></li>
+                <li><a href="#"><img src="img/search.png" /></a></li>
+            </ul>
+            <div class="panel panel-default signup-panel">
+            <div class="panel-heading clearfix">
+                注册成为会员
+                <a class="btn btn-danger btn-xs pull-right" href="/passport-login.html">立即登录»</a>
+            </div>
+            <div class="panel-body">
+                <form >
+                    <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-3 col-form-label">登录账号<span class="text-dange">*</span></label>
+                            <div class="col-sm-9">
+                                <input id="tel" type="text" class="form-control" id="colFormLabel"placeholder="手机号/邮箱/用户名" required=true minlength=4>
+                            </div> 
+                        </div>
+                        <div class="form-group row">
+                            <label for="colFormLabel" class="col-sm-3 col-form-label">登录密码<span class="text-dange">*</span></label>
+                            <div class="col-sm-9">
+                                <input id="pas" type="password" class="form-control" id="colFormLabel" placeholder="登录密码" required=true>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                                <label for="input_vcode" class="col-md-3 control-label">验证码<span class="text-danger">*</span></label>
+                                <div class="col-md-3">
+                                        <input type="text" required="true" name="vcode" class="form-control" id="input_vcode" placeholder="验证码" equalTo="#txt-one">
+                                </div>
+                                <div class="col-md-3">
+                                        <input id="txt-one" style="font-size:12px"  type="text" required="true" name="vcode" class="form-control" id="input_vcode" placeholder="验证码">
+                                </div>
+                                <div class="col-md-3" >
+                                        <input id="btn-one" style="font-size:12px" type="button" required="true" name="vcode" class="form-control" id="input_vcode" value="更换验证码">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <div class="col-md-offset-3 col-md-9" style="padding-left:0; margin-left: 25%">
+                                    <div class="checkbox" >
+                                    <label style="padding-left:20px;font-size:14px">
+                                        <input onclick="return false;" type="checkbox" checked="" name="" value="1" >&nbsp;&nbsp;&nbsp;&nbsp;同意
+                                    </label>
+                                    <a href="javascript:;" style="color: #767676;text-decoration: none;font-size:14px">《会员注册条款》</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <div class="col-md-offset-3 col-md-9 btn" style="padding-left:0;">
+                                    <button id="btn" type="submit" data-loading-text="正在提交..." class="btn btn-warning">登录</button><span id="msg"></span>
+                                </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+        </div> 
+        <img src="https://www.konka.com/public/images/b8/1d/d0/6a403a4021e15eedd1b80c5f88f6d8bf4688d272.jpg?44264_OW1920_OH588);background-size:100% 100%;" />
+    </div>
+
+
+    <div id="footer">
+        <div class="margin">
+            <ul class="clear">
+                <li>
+                    <div class="imgbox"><img src="https://www.konka.com/public/images/29/72/32/508be9abdf01173241a65b671c4ec6fff242e359.png?72574_OW29_OH29" /></div>
+                    <div class="hb"><h4>全场包邮</h4><small>全场商品免费送到家</small></div>
+                </li>
+                <li>
+                    <div class="imgbox"><img src="https://www.konka.com/public/images/8e/e7/58/dda3bbcea1734e9cc57f733bd39c7bdfa8a098c9.png?72590_OW23_OH24" /></div>
+                    <div class="hb"><h4>质量保证</h4><small>享受国家三包政策</small></div>
+                </li>
+                <li>
+                    <div class="imgbox"><img src="https://www.konka.com/public/images/0a/f6/6b/fa606e57f51c1c20bee1b08b460b546a2308535a.png?72616_OW24_OH24" /></div>
+                    <div class="hb"><h4>权益保障</h4><small>7天包退15天包换</small></div>
+                </li>
+                <li>
+                    <div class="imgbox"><img src="https://www.konka.com/public/images/18/f6/51/e7f1acfff43fd63737b75f9dd040c04875dbef80.png?72627_OW24_OH24" /></div>
+                    <div class="hb"><h4>放心服务</h4><small>24小时内上门服务</small></div>
+                </li>
+                <li>
+                    <div class="imgbox"><img src="https://www.konka.com/public/images/e1/df/92/2304a231ed8691bc454c367e282052810d5634d0.png?72639_OW25_OH25" /></div>
+                    <div class="hb"><h4>意外惊喜</h4><small>限时打折优惠不断</small></div>
+                </li>
+               
+            </ul>
+
+            <div class="footer-b clear">
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><a href="#" target="_blank">购买指南</a></dd>
+                    <dd><a href="#" target="_blank">支付方式</a></dd>
+                    <dd><a href="#" target="_blank">配送方式</a></dd>
+                    <dd><a href="#" target="_blank">售后政策</a></dd>
+                    <dd><a href="#" target="_blank">防伪查询</a></dd>
+                </dl>
+                <dl>
+                    <dt>新闻中心</dt>
+                    <dd><a href="#" target="_blank">集团新闻</a></dd>
+                    <dd><a href="#" target="_blank">媒体报道</a></dd>
+                </dl>
+                <dl>
+                    <dt>投资者关系</dt>
+                    <dd><a href="#" target="_blank">公司概要</a></dd>
+                    <dd><a href="#" target="_blank">高管团队</a></dd>
+                    <dd><a href="#" target="_blank">最新报告</a></dd>
+                    <dd><a href="#" target="_blank">公司治理</a></dd>
+                </dl>
+                <dl>
+                    <dt>集团成员网站</dt>
+                    <dd><a href="#" target="_blank">华成桥集团</a></dd>
+                    <dd><a href="#" target="_blank">康佳全球服务中心</a></dd>
+                    <dd><a href="#" target="_blank">康佳国际营销</a></dd>
+                    <dd><a href="#" target="_blank">康佳移动互联科技</a></dd>
+                    <dd><a href="#" target="_blank">康佳壹视界商业显示</a></dd>
+                    <dd><a href="#" target="_blank">康佳智能电器</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="#" target="_blank">了解康佳</a></dd>
+                    <dd><a href="#" target="_blank">加入康佳</a></dd>
+                    <dd><a href="#" target="_blank">校园招聘</a></dd>
+                    <dd><a href="#" target="_blank">联系我们</a></dd>
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a href="#" target="_blank">官方微博</a></dd>
+                    <dd><a href="#" target="_blank">官方微信</a></dd>
+                    <dd><a href="#" target="_blank">官方社区</a></dd>
+                    <dd><a href="#" target="_blank">K迷俱乐部</a></dd>
+                    <dd><a href="#" target="_blank">康佳微商城</a></dd>
+                    <dd><a href="#" target="_blank">康佳服务</a></dd>
+                    <dd><a href="#" target="_blank">腾讯视频TV端</a></dd>
+                </dl>
+                <div class="links-iphone">
+                    <p class="hotline">24小时全国服务热线</p>
+                    <p class="tele">400-880-0016</p>
+                    <a href="#" target="_blank" class="Customer zixun">
+                        <span>购买咨询</span>
+                    </a> 
+                    
+                    <a style="margin-left: 10px;" target="_blank" href="#" class="Customer">
+                        <span>售后服务</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+<!-- <script src="js/bt/bootstrap.js"></script> -->
+<!-- <script src="js/bt/popper.js"></script> -->
+<script src="js/libs/jquery.js"></script>
+<!-- <script src="js/form/jquery.validate.js"></script> -->
+<!-- <script src="js/form/jquery.validate.messages_zh.js"></script> -->
+<script src="js/ajax.3.0.js"></script>
+
+<script>
+    function fn(){
+        var r = Math.round(Math.random()*255).toString(16);
+        var g = Math.round(Math.random()*255).toString(16); 
+        $("#txt-one").val(r+g)   
+    }
+    
+fn()
+
+$("#btn-one").click(function(){
+    fn()
+})
+// $("form").validate()
+
+    class Registe{
+        constructor(){
+            this.url = "/api/login";
+            this.init();
+        }
+        init(){
+            var that = this;
+            $("#btn").click(function(){
+                that.load()
+            })
+        }
+        load(){
+            $.ajax({
+                    type:"POST",
+                    url:this.url,
+                    data:{
+                        username:$("#tel").val(),
+                        password:$("#pas").val()
+                    },
+                     success:function(res){
+                         console.log(res)
+                            switch(res.error){
+                        case 0:
+                            
+                            $("#msg").html("登录成功");
+                            location.href = "index.html"
+                            break;
+                            $("#msg").html("用户名密码不符");
+                            break;
+                        // default:
+                        //     //that.res = JSON.parse(res);
+                            
+                        //     break;
+                        }
+                    },
+                    error:()=>{
+                        console.log(1)
+                    }
+                })
+        }
+    }
+ 
+ new Registe()
+
+</script>
+</html>

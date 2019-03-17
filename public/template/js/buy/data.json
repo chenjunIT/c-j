@@ -1,0 +1,66 @@
+[
+    {
+        "src":"https://www.konka.com/public/images/ee/7a/d9/49d45087fa2d28e18196a02432acea6174dd138a.jpg?27459_OW200_OH200",
+        "h":"551升风冷无霜对开门冰箱",
+        "div":"电脑精准温 / VC保鲜",
+        "price":"￥2799",
+        "span":"￥2999",
+        "id":"one"
+    },
+    {
+        "src":"https://www.konka.com/public/images/76/c3/e4/db1eb2ed475ff2d5644988d0c2f08b466fd23f8f.jpg?27464_OW200_OH200",
+        "h":"458升十字对开门冰箱",
+        "div":"自动除霜 / 电脑温控",
+        "price":"￥2299",
+        "span":"￥2699",
+        "id":"two"
+    },
+    {
+        "src":"https://www.konka.com/public/images/c5/f3/3f/513b99fbc7c088106e3f12938ae96229f69ad636.jpg?27471_OW200_OH200",
+        "h":"430升对开门风冷冰箱",
+        "div":"风冷无霜 / 电脑温控",
+        "price":"￥2299",
+        "span":"￥2999",
+        "id":"three"
+    },
+    {
+        "src":"https://www.konka.com/public/images/ed/9a/99/a26b8bd12db9b70dcd92470cb831b01246d10cf3.jpg?27475_OW200_OH200",
+        "h":"330升法式多门冰箱",
+        "div":"电脑温控 / 净味保鲜",
+        "price":"￥1799",
+        "span":"￥1899",
+        "id":"four"
+    },
+    {
+        "src":"https://www.konka.com/public/images/ed/9a/99/a26b8bd12db9b70dcd92470cb831b01246d10cf3.jpg?27475_OW200_OH200",
+        "h":"206升三门冰箱",
+        "div":"大气土豪金 / 三门三温区",
+        "price":"￥1199",
+        "span":"￥1299",
+        "id":"five"
+    },
+    {
+        "src":"https://www.konka.com/public/images/5f/24/b7/e05c15801fcf16f07709ce7a0e8f816846e7458b.jpg?27483_OW200_OH200",
+        "h":"192升三门冰箱",
+        "div":"三门三温区 / 快速制冷",
+        "price":"￥1099",
+        "span":"￥1199",
+        "id":"six"
+    },
+    {
+        "src":"https://www.konka.com/public/images/cf/71/04/d3e4d45288f59754d46d28590e063195c305fe9e.jpg?91385_OW200_OH200",
+        "h":"330升十字对开门冰箱",
+        "div":"独立存储 / 原生态保鲜",
+        "price":"￥1899",
+        "span":"￥1999",
+        "id":"seven"
+    },
+    {
+        "src":"https://www.konka.com/public/images/74/b9/e8/cf09d46618b098ffc4969b686ca489f74981b6b1.jpg?51090_OW200_OH200",
+        "h":"218升单门冰箱",
+        "div":"大容积三宽设计 / 高密度发泡层",
+        "price":"￥899",
+        "span":"￥1099",
+        "id":"eight"
+    }
+]

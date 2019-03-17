@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>bootstrap4</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-lite.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote-lite.js"></script>
+    <script src="/admin/js/summernote-zh-CN.js"></script>
+    <!-- help -->
+    <!-- https://blog.csdn.net/babyxue/article/details/75494579 -->
+  </head>
+  <body>
+    <div id="summernote"></div>
+    <input type="button" value="获取code" id="btn1">
+    <input type="button" value="插入code" id="btn2">
+    <script>
+      $(function(){
+        $('#summernote').summernote({
+          placeholder: 'https://summernote.org',
+          tabsize: 2,
+          minHeight: 300,
+          lang: 'zh-CN'
+        });
+
+        $('#btn1').click(function(){
+          console.log($('#summernote').summernote('code'))
+        })
+
+        $('#btn2').click(function(){
+          var HTMLstring = '<p>阿<b>斯顿</b>发放</p><p>阿斯<u>顿发</u>斯<span style="color: rgb(214, 239, 214);">蒂芬</span></p>';
+          $('#summernote').summernote('code', HTMLstring)
+          // $('#summernote').summernote('insertText', HTMLstring)
+          // $('#summernote').summernote('insertText', 'Hello, world')
+        })
+
+      })
+      
+     
+      
+    </script>
+  </body>
+</html>

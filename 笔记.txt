@@ -1,0 +1,11 @@
+知识点:
+	路由跳转: 编程式跳转
+		res.redirect(跳转地址?key=value)  //跳转地址 = string  key/value传递值
+	ajax提交后，nodejs需返回跳转地址，由前端跳转
+
+	ejs的js里面 抓取 ejs变量:
+		<script>let js变量 = '<%= ejs变量 %>' </script>
+
+	查询 eval('/'+ varname +'/g') || new RegExp('x'+varname+'x','/g')
+		排序 sort:rule ? {[rule]:-1} : {'detail.time':-1}
+		排序关键字: (标题title|时间:detail.title)
